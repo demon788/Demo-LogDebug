@@ -1,4 +1,4 @@
-package com.example.admin.demo;
+package com.example.logdemo;
 
 import android.util.Log;
 
