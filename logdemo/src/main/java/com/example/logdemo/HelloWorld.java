@@ -8,7 +8,8 @@ import android.widget.Toast;
  */
 
 public class HelloWorld extends AppCompatActivity {
-    private void HelloWorld(String name){
+    private static final String name = "Hello";
+    public void HelloWorld(String name){
         Toast.makeText(this,name,Toast.LENGTH_SHORT).show();
     }
 }
